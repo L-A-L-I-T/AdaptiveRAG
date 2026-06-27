@@ -477,17 +477,6 @@ Create `Dockerfile` and `docker-compose.yml` for containerized deployment.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Make changes following CODE_STYLE_GUIDE.md
-4. Commit with descriptive messages (`git commit -m 'feat: Add YourFeature'`)
-5. Push to your branch (`git push origin feature/YourFeature`)
-6. Open a Pull Request
-
 ### Code Quality
 - Follow PEP 8 standards
 - Add docstrings to all functions
@@ -503,6 +492,7 @@ Contributions are welcome! Please follow these steps:
 |-----------|-----------|---------|
 | **LLM Framework** | LangChain | ~0.3.27 |
 | **Workflow Orchestration** | LangGraph | ~0.5.4 |
+| **LLM Observalibility** | Langsmith | Latest |
 | **Web Framework** | FastAPI | Latest |
 | **ASGI Server** | Uvicorn | Latest |
 | **UI Framework** | React (Vite) | Latest |
@@ -545,15 +535,6 @@ A: Yes, remove Tavily dependency. Queries will use index or general LLM only.
 
 ---
 
-## 💬 Support & Contact
-
-For issues, questions, or suggestions:
-- Open an [Issue](https://github.com/L-A-L-I-T/Adaptive-Rag/issues)
-- Check existing documentation
-- Review the code comments
-
----
-
 ## 🙏 Acknowledgments
 
 - Built with LangChain and LangGraph
@@ -576,34 +557,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Lalit Rajput**
 - GitHub: [@L-A-L-I-T](https://github.com/L-A-L-I-T)
 - Project: [Adaptive RAG](https://github.com/L-A-L-I-T/Adaptive-Rag)
-
----
-
-## 📈 Project Status
-
-- ✅ Core RAG pipeline implemented
-- ✅ Document upload and indexing
-- ✅ Query routing (index/general/search)
-- ✅ MongoDB chat history
-- ✅ React web interface
-- ✅ Code formatted and documented
-- 🚀 Production ready
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Enhanced context management
-- [ ] Multi-language support
-- [ ] Performance benchmarks
-- [ ] Extended LLM provider support
-- [ ] Advanced authentication
-- [ ] Real-time collaboration
-- [ ] Analytics dashboard
-- [ ] Cost optimization
-
----
-
-**Last Updated**: March 5, 2026  
-**Status**: ✅ Production Ready  
-**Documentation**: ✅ Comprehensive
