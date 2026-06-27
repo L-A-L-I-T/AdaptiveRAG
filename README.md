@@ -52,6 +52,10 @@ The system intelligently adapts its retrieval strategy based on query type, util
 
 ## 🏗️ Architecture
 
+### LangGraph Structure
+
+![Adaptive RAG Graph](AdaptiveRAG.png)
+
 ### System Components
 
 ```
